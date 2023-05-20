@@ -1,0 +1,424 @@
+@font-face {
+    font-family: secondfonts;
+    src: url("fonts/diploma.ttf");
+}
+@font-face {
+    font-family: myfonts;
+    src: url("fonts/Beckett.ttf");
+}
+@font-face {
+    font-family: thirdfonts ;
+    src: url("fonts/pricedow.ttf");
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F9F8F6;
+}
+body {
+    background-color: #F9F8F6;
+}
+.headey{
+    margin-top:20px;
+    display: flex;
+    width: 100%;
+    position:-webkit-sticky;
+}
+.heady a{
+    
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-right: 45%;
+    padding-left: 2%;
+
+}
+.nav-header{
+    list-style: none;
+    color: black;
+    display: flex;
+    margin-right: auto;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-family: 'secondfonts';
+    padding-right: 30px;
+    font-size: 2rem;
+    
+    
+}
+.nav-list a:last-child{
+   
+}
+.hello{
+    width: 100%;
+    height: 50vh;
+}
+.first{
+    font-family: 'thirdfonts';
+    font-size: 5rem;
+    font-weight: 200;
+    margin-top: 70px;
+    margin-left: 40px;
+    text-transform: capitalize;
+    cursor: not-allowed;
+}
+.skills{
+    display: flex;
+    font-family: 'thirdfonts';
+    width: 100%;
+}
+.skill-set{
+    font-weight: 100;
+    font-size: 2rem;
+    margin-right: 20%;
+    text-align: center;
+    cursor:crosshair;
+    
+}
+.skill-set:first-child{
+    padding-left: 20%;
+    text-align: center;
+}
+.gify{
+    width: 100%;
+    height: 200vh;
+    
+}
+.box{
+   
+}
+.box-gif{
+    margin: 30px auto 30px auto;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: black;
+    
+}
+.name{
+    background-color: black;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    font-family: 'thirdfonts';
+    font-weight: 50;
+    font-size: 3rem;
+    text-align: center;
+}
+.projects{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+.main-div{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+}
+.inner-div{
+    background-color: #F9F8F6;
+    width: 25%;
+    height: 10vh;
+}
+.inner-div button{
+   background-color: transparent;
+   color: black;
+   border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 1;
+    color: white;
+    
+}
+.top-div{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    opacity: 0.8;
+    
+}
+.div-box{
+    width: 45%;
+    height: 450px;
+}
+.first-div{
+    margin-right:5%;
+    position: relative;
+}
+.second-div{
+    margin-left:5%;
+    position: relative;
+}
+.third-div{
+    position: relative;
+}
+.div-box2{
+    width: 100%;
+    height: 300px;
+}
+.title{
+    position: absolute;
+    top: 15px;
+    padding: 0%;
+    color: white;
+    text-shadow: 2px 1px black;
+    left: 15px;
+    font-family: 'thirdfonts';
+    font-weight: 30;
+}
+.sub-title{
+    display: none;
+    position: absolute;
+    top: 375px;
+    padding: 0%;
+    color: black;
+    width: 90%;
+    text-shadow:  1px 1px 1 #DBEDF3; ;
+    left:15px ;
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    background-color: white;
+}
+.sub-title2{
+    color: orange;
+    background-color: black;
+}
+.sub-title3{
+    color: #576CBC;
+    background-color: white;
+}
+.sub-title5 , .sub-title8 , .sub-title9 ,.sub-title10 , .sub-title11{
+    color: black;
+    background-color: white;
+    top: 225px;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+.btm{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'thirdfonts';
+    font-weight: 100;
+    opacity: 0.7;
+}
+.about-main{
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+}
+.about-image{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+}
+.about-heading{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 0px;
+    left: 530px;
+}
+.text2{
+   
+}
+.part1{
+    position: absolute;
+    top: 57px;
+    left: 360px;
+}
+.part2{
+    position: absolute;
+    left: 560px;
+    top: 48px;
+}
+.about-paragraph{
+    position: relative;
+}
+.para1{
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 460px;
+    font-family: 'Jost', sans-serif;
+}
+.para2{
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 860px;
+    font-family: 'Jost', sans-serif;
+}
+.quote{
+    width: 100%;
+    position: relative;
+    height: 70vh;
+}
+
+.quote-img{
+
+}
+.quote-text{
+    position: absolute;
+    top: 75px;
+    width: 80%;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    left: 30px;
+}
+.contact{
+    width: 100%;
+    height: 50vh;
+}
+.contact-upper{
+   margin-left: 30%;
+   margin-top: 50px;
+}
+.mail{
+    width: 30%;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding-right: 20px;
+    transition-delay: 2ms;
+    transition-duration: 3ms;
+    transition: ease-in-out;
+}
+.mail:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.mail a{
+    /* color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem; */
+}
+.call a{
+     color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.gmail a{
+    color: black;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.contact-lower-main{
+    width: 80%;
+   display: flex;
+   margin: 30px auto;
+}
+.logos{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: white;
+   
+   font-size: 2rem;
+   align-self: center;
+   padding-top: 14px;
+   padding-left: 18px;
+   margin-right: 5%;
+}
+.logos:first-child{
+    margin-left: 19%;
+}
+.logos:hover{
+    background-color: black;
+}
+.i1:hover{
+    color:white ;
+}
+.logos a{
+    text-decoration: none;
+    color: black;
+}
+.copyright{
+    font-family: 'Jost', sans-serif;
+    font-family: 200;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.others{
+    position: relative;
+}
+.up{
+    font-size: 8rem;
+    text-decoration: none;
+    position: absolute;
+    bottom: -30px;
+    left: 90%;
+    color: black;
+}
+
+
+
+
+
+
+/* <-- Text Animation--> */
+.marquee-w {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 140px;
+    top: 15%;
+    
+    transform: translate(0%, -50%);
+    overflow: hidden;
+}
+.marquee {
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 100%;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    font-family: 'secondfonts';
+    text-align: center;
+    /* -webkit-text-stroke: 1px white; */
+    color: black;
+    opacity: 0.75;
+    white-space: nowrap;
+    min-width: 100%;
+    height: 100%;
+    line-height: 140px;
+    font-size: 85px;
+    animation: marquee 10s linear infinite;
+}
+.marquee2 span {
+    animation-delay: 5s;
+}
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
